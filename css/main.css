@@ -89,6 +89,11 @@ textarea {
 
 /*------------- Base Header - Footer Styles ------------*/
 
+.content-wrapper {
+    width: 90%;
+    margin: 50px 0; 
+}
+
 header, footer {
     display: flex;
     justify-content: center;
@@ -96,23 +101,53 @@ header, footer {
     flex-flow: row wrap;
 }
 
+header {
+    padding: 15px 0; 
+}
+
 header .content-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap; 
+    margin: 0;
 }
 
-header, nav {
+.header-divider {
+    width: 100%;
+    height: 1px;
+    margin: 10px 0 20px 0;
+}
+
+header nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-flow: row wrap;
+    width: 50%;
 }
 
-header, nav ul {
+header nav ul {
     display: flex;
     justify-content: space-around;
+    width: 100%;
+}
+
+footer {
+    flex-direction: column;
+}
+
+footer p {
+    margin: 0; 
+}
+
+footer .content-wrapper {
+    width: 55%;
+    margin: 50px 0; 
+}
+
+footer .contact {
+    margin-bottom: 50px;
 }
 
 footer .social-icons {
@@ -124,7 +159,11 @@ footer .social-icons {
 footer .social-icons p {
    display: flex; 
    justify-content: center;
-    align-items: center;
+   align-items: center;
+}
+
+footer .copyright {
+    margin: 20px 0; 
 }
 
 /*--------- Homepage - Mobile Styles ---------*/
@@ -134,7 +173,7 @@ footer .social-icons p {
 .hero-area {
     display: flex;
     justify-content: center;
-    align-items: center;
+    flex-flow: row wrap;
 }
 
 /* Aside */
@@ -154,6 +193,15 @@ footer .social-icons p {
     flex-flow: row wrap; 
 }
 
+.features h2 {
+    margin-bottom: 60px; 
+}
+
+.features article {
+    width: 50%;
+    margin: 30px 0; 
+}
+
 .features .features-items {
     display: flex;
     justify-content: center;
@@ -161,12 +209,32 @@ footer .social-icons p {
     flex-flow: row wrap;
 }
 
+.features p {
+    margin: 0; 
+}
+
+
+
 /* Reviews */
 
 .reviews {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+}
+
+.reviews h2 {
+    margin-bottom: 30px; 
+}
+
+.reviews h3 {
+    width: 50%;
+    margin: 20px 0; 
+}
+
+.reviews p {
+    width: 90%;
+    margin: 20px 0; 
 }
 
 /* ============= ABOUT PAGE ============== */
@@ -185,6 +253,11 @@ footer .social-icons p {
     flex-flow: row wrap;
 }
 
+.contact-content p {
+    margin: 0; 
+}
+
+
 /* ======== FAQ PAGE ========= */
 
 .faq {
@@ -199,6 +272,15 @@ footer .social-icons p {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    margin: 50px 0 0 0; 
+}
+
+.faq h2 {
+    margin-bottom: 40px;
+}
+
+.faq-content {
+    margin-bottom: 50px; 
 }
 
 
