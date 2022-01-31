@@ -124,7 +124,7 @@ header nav {
     justify-content: space-around;
     align-items: center;
     flex-flow: row wrap;
-    width: 50%;
+    width: 55%;
 }
 
 header nav ul {
@@ -154,7 +154,7 @@ footer .contact {
 
 footer .social-icons {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -211,7 +211,7 @@ aside .content-wrapper .form-description, aside .content-wrapper .form {
 }
 
 .features article {
-    width: 50%;
+    width: 60%;
     margin: 30px 0; 
 }
 
@@ -226,11 +226,6 @@ aside .content-wrapper .form-description, aside .content-wrapper .form {
     margin: 0; 
 }
 
-.features p .features-items-description {
-
-}
-
-
 
 /* Reviews */
 
@@ -241,7 +236,7 @@ aside .content-wrapper .form-description, aside .content-wrapper .form {
 }
 
 .reviews h2 {
-    margin-bottom: 30px; 
+    margin-bottom: 40px; 
 }
 
 .reviews h3 {
@@ -261,10 +256,6 @@ aside .content-wrapper .form-description, aside .content-wrapper .form {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-}
-
-.mission-content {
-
 }
 
 .contact-section {
@@ -301,8 +292,7 @@ aside .content-wrapper .form-description, aside .content-wrapper .form {
 }
 
 .faq-content {
-    margin-bottom: 50px; 
-    flex-basis: auto; 
+    margin-bottom: 50px;  
 }
 
 
