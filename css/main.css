@@ -87,12 +87,15 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-/*------------- Base Header - Footer Styles ------------*/
 
 .content-wrapper {
     width: 90%;
     margin: 50px 0; 
 }
+
+/*------------- Base Header - Footer Styles ------------*/
+
+
 
 header, footer {
     display: flex;
@@ -187,6 +190,9 @@ aside {
     flex-flow: row wrap;
 }
 
+
+/* THIS IS NOT IN THE SOLUTION CODE */
+
 aside .content-wrapper {
     margin: 30px 0 0 50px; 
 }
@@ -196,6 +202,7 @@ aside .content-wrapper .form-description, aside .content-wrapper .form {
     margin: 0
 }
 
+/* end not in solution code */
 
 
 /* Features */
@@ -244,10 +251,14 @@ aside .content-wrapper .form-description, aside .content-wrapper .form {
     margin: 20px 0; 
 }
 
+/* NOT IN SOLUTION CODE */
+
 .reviews p {
     width: 90%;
     margin: 20px 0; 
 }
+
+/*end not in solution code*/
 
 /* ============= ABOUT PAGE ============== */
 
@@ -524,7 +535,53 @@ footer .copyright {
     /*Desktop styles here*/
 }
 
+.content-wrapper {
+    max-width: 960px; 
+}
 
+/* Hero Area */
+.hero-area h1 {
+    width: 55%; 
+}
+
+/*Aside*/
+
+aside .content-wrapper {
+    justify-content: space-around;
+}
+
+aside .content-wrapper .form-description,
+aside .content-wrapper .form {
+    width: 30%; 
+}
+
+/* FEATURES */
+
+.features h2 {
+    width: 90%;
+}
+
+.features article {
+    flex-basis: 30%;
+}
+
+/*REVIEWS*/
+
+.reviews article div {
+    width: 42%;
+}
+
+/* === ABOUT PAGE ==== */
+
+.mission h2, .contact-section .contact-content h2 {
+    width: 95%; 
+}
+
+/*====FAQ PAGE ====*/
+
+.faq h2 {
+    width: 100%; 
+}
 
 /* ==========================================================================
    Print styles.
