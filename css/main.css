@@ -108,6 +108,7 @@ body {
     font-family: 'Open Sans', sans-serif; 
     font-size: 1em;
     text-align: left; 
+    color: #e2e3ed; 
 }
 
 ul, ol {
@@ -119,15 +120,25 @@ a {
     text-decoration: none; 
 }
 
+/* NOT IN SOLUTION CODE?*/
+h1 {
+    font-family: 'Poppins' sans-serif;
+    font-size: 2.25em; 
+}
+
+/*why h1 not in solution code?*/
+
 h2 {
     font-family: 'Poppins' sans-serif;
     font-size: 1.875em;
+    font-weight: 500; 
 }
 
 h3, h4 {
     font-family: 'Poppins', sans-serif; 
     margin: 20px 0; 
     font-size: 1.125em; 
+    font-weight: 500; 
 }
 
 p {
@@ -137,21 +148,8 @@ p {
     /*SOLUTION CODE : line height: 1.285; HOW?*/
 }
 
-img {
-
-}
-
-figure {
-
-}
-
 address {
     font-style: normal; 
-}
-
-.content-wrapper { 
-    width: 90%; 
-    margin: 50px 0; 
 }
 
 .content-wrapper {
@@ -161,9 +159,8 @@ address {
 
 /*------------- Base Header - Footer Styles ------------*/
 
-
-
 header, footer {
+    background-color: #202322; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -183,17 +180,21 @@ header .content-wrapper {
 }
 
 .header-divider {
+    background-color: #3a3a3a; 
     width: 100%;
     height: 1px;
     margin: 10px 0 20px 0;
 }
 
 header nav {
+    width: 60%; 
+    font-size: 1.125em; 
+    font-weight: 700; 
+    text-transform: uppercase; 
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-flow: row wrap;
-    width: 55%;
 }
 
 header nav ul {
@@ -202,9 +203,14 @@ header nav ul {
     width: 100%;
 }
 
+header nav ul li { 
+    font-size: 1.125em; 
+}
+
 /*Footer*/
 
 footer {
+    text-align: center; 
     flex-direction: column;
 }
 
@@ -247,15 +253,48 @@ footer .copyright {
     flex-flow: row wrap;
 }
 
+.hero-area h1 {
+    font-size: 2.25em; 
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 500; 
+    line-height: 1.3;
+}
+
 /* Aside */
 
 aside {
+    background-color: #527158;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
 }
 
+aside .form {
+    margin-top: 30px;
+  }
+   
+  input[type=text] {
+    box-sizing: border-box;
+    width: 100%;
+    color: #2a423a;
+    font-style: italic;
+    padding: 1em;
+  }
+   
+  input[type=button] {
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 20px;
+    background-color: #2a423a;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.125em;
+    color: #e2e3ed;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+  }
 
 /* THIS IS NOT IN THE SOLUTION CODE */
 
@@ -297,12 +336,14 @@ aside .content-wrapper .form-description, aside .content-wrapper .form {
 
 .features p {
     margin: 0; 
+    text-align: center;
 }
 
 
 /* Reviews */
 
 .reviews {
+    background-color: #2a423a;
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
@@ -310,6 +351,7 @@ aside .content-wrapper .form-description, aside .content-wrapper .form {
 
 .reviews h2 {
     margin-bottom: 40px; 
+    line-height: 1;
 }
 
 .reviews h3 {
@@ -317,18 +359,10 @@ aside .content-wrapper .form-description, aside .content-wrapper .form {
     margin: 20px 0; 
 }
 
-/* NOT IN SOLUTION CODE */
-
-.reviews p {
-    width: 90%;
-    margin: 20px 0; 
-}
-
-/*end not in solution code*/
-
 /* ============= ABOUT PAGE ============== */
 
 .mission {
+    background-color: #527158;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -336,6 +370,7 @@ aside .content-wrapper .form-description, aside .content-wrapper .form {
 }
 
 .contact-section {
+    background-color: #2a423a;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -350,6 +385,7 @@ aside .content-wrapper .form-description, aside .content-wrapper .form {
 /* ======== FAQ PAGE ========= */
 
 .faq {
+    background-color: #527158; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -366,13 +402,16 @@ aside .content-wrapper .form-description, aside .content-wrapper .form {
 
 .faq h2 {
     margin-bottom: 40px;
+    line-height: 1; 
 }
 
 .faq-content {
     margin-bottom: 50px;  
 }
 
-
+.faq-content h4 {
+    line-height: 1.333; 
+}
 
 
 
@@ -474,17 +513,26 @@ aside .content-wrapper .form-description, aside .content-wrapper .form {
     margin: 100px 0;
 }
 
+h2 { 
+    font-size: 2.25em; 
+    line-height: 1.6875;
+}
+
+h3 {
+    font-size: 1.5em; 
+    line-height: 1.25; 
+}
+
 /*Header*/
 
 header {
     justify-content: center;
-    padding: 0;
+    padding: 33px 0;
 }
 
 header .content-wrapper {
-    justify-content: center;
-    width: 83%;
-    margin: 0;
+    justify-content: space-between;
+    width: 100%;
 }
 
 header nav {
@@ -493,7 +541,6 @@ header nav {
 
 header nav ul {
     justify-content: space-around;
-    width: 100%;
 }
 
 .header-divider {
@@ -502,42 +549,63 @@ header nav ul {
 
 /*Hero Area*/
 
+.hero-area h1 {
+    font-size: 3em; 
+    line-height: 1;
+    margin: 0; 
+}
+
 /*Aside*/
 
 aside .content-wrapper {
+    margin: 50px 0; 
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-flow: row wrap; 
 }
 
 aside .content-wrapper .form-description, 
 aside .content-wrapper .form {
-    width: 83%;
+    width: 40%;
     margin: 0; 
 }
 
 /*Features*/
 
+.features h2 {
+    margin-bottom: 20px; 
+}
+
 .features article {
     display: flex; 
     justify-content: center;
-    flex-flow: row wrap;
-    flex-basis: auto;
+    align-items: center; 
+    flex-flow: column wrap;
+    flex-basis: 50%;
 }
 
 .features .features-items-description {
-    width: 21%; 
+    width: 62%; 
 }
 
 /*Reviews*/
 
 .reviews article {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+}
+
+.reviews h2 {
+    width: 85%; 
 }
 
 .reviews article div {
-    width: 83%;
+    width: 49%;
+}
+
+.reviews h3 {
+    width: 75%;
+    margin: 0; 
 }
 
 /*Footer*/ 
@@ -549,16 +617,26 @@ footer .content-wrapper {
 
 .footer-content {
     display: flex; 
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    flex-direction: row; 
 }
 
 footer .contact {
     margin-bottom: 0;
 }
 
+footer h4 {
+    font-size: 1.5em; 
+    margin-bottom: 40px;
+}
+
+footer p {
+    line-height: 1.285; 
+}
+
 footer .copyright {
-    width: 25%;
+    width: 100%;
 }
 
 /*==== ABOUT PAGE TABLET ====*/
@@ -566,21 +644,26 @@ footer .copyright {
 .mission-content {
     display: flex;
     justify-content: space-between; 
-    align-items: flex-start; 
+    align-items: center; 
+    padding-top: 20px; 
 }
 
 .mission-content p {
-    width: 83%;
+    width: 45%;
 }
 
 .contact-section .content-wrapper h2 {
-    width: 240px; 
+    width: 80%; 
 }
 
 .contact-content {
     display: flex; 
     justify-content: space-between;
     align-items: flex-start; 
+}
+
+.contact-content h4 {
+    font-size: 1.5em; 
 }
 
 /*===== FAQ PAGE ===== */
@@ -590,7 +673,7 @@ footer .copyright {
 }
 
 .faq-content {
-    flex-basis: 40%; 
+    flex-basis: 45%; 
 }
 
 .faq h2 {
@@ -601,12 +684,30 @@ footer .copyright {
     /*Desktop styles here*/
 }
 
+header {
+    padding: 15px 0; 
+}
+
 .content-wrapper {
     max-width: 960px; 
 }
 
+h2 {
+    font-size: 2.25em; 
+}
+
+h3, h4 { 
+    font-size: 1.875em; 
+}
+
+p {
+    font-size: 1.125em; 
+    line-height: 1.333; 
+}
+
 /* Hero Area */
 .hero-area h1 {
+    font-size: 3.75em; 
     width: 55%; 
 }
 
@@ -621,6 +722,10 @@ aside .content-wrapper .form {
     width: 30%; 
 }
 
+.form-description p {
+    font-size: 1.125em; 
+}
+
 /* FEATURES */
 
 .features h2 {
@@ -633,20 +738,39 @@ aside .content-wrapper .form {
 
 /*REVIEWS*/
 
+.reviews h2 {
+    padding-bottom: 50px; 
+}
+
 .reviews article div {
     width: 42%;
+}
+
+footer h4 {
+    font-size: 1.875em; 
 }
 
 /* === ABOUT PAGE ==== */
 
 .mission h2, .contact-section .contact-content h2 {
     width: 95%; 
+    font-size: 3em; 
+}
+
+.contact-content h4 {
+    font-size: 1.875em; 
 }
 
 /*====FAQ PAGE ====*/
 
 .faq h2 {
     width: 100%; 
+    font-size: 3em; 
+}
+
+.faq h4, .faq p {
+    font-size: 1.125em; 
+    line-height: 1;
 }
 
 /* ==========================================================================
