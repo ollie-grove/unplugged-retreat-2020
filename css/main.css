@@ -247,10 +247,14 @@ footer .copyright {
 
 /* Hero Area*/
 
+
+
 .hero-area {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    background: url('img/jake-melara-30679-unsplash.jpg');
+
 }
 
 .hero-area h1 {
