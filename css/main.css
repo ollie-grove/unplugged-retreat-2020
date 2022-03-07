@@ -120,14 +120,6 @@ a {
     text-decoration: none; 
 }
 
-/* NOT IN SOLUTION CODE?*/
-h1 {
-    font-family: 'Poppins' sans-serif;
-    font-size: 2.25em; 
-}
-
-/*why h1 not in solution code?*/
-
 h2 {
     font-family: 'Poppins' sans-serif;
     font-size: 1.875em;
@@ -525,7 +517,7 @@ aside .form {
 
 h2 { 
     font-size: 2.25em; 
-    line-height: 1.6875;
+    line-height: 1.333;
 }
 
 h3 {
@@ -617,7 +609,7 @@ aside .content-wrapper .form {
     width: 85%; 
 }
 
-.reviews article div {
+.reviews article figure, .reviews article div {
     width: 50%;
 }
 
@@ -715,17 +707,6 @@ header {
     max-width: 960px; 
 }
 
-/* NOt in solution code
-header figure {
-    width: 25%; 
-    display: flex; 
-    justify-content: center; 
-    align-items: left; 
-    flex-flow: row wrap; 
-}
-
-end not in solution code*/
-
 h2 {
     font-size: 2.25em; 
 }
@@ -772,12 +753,12 @@ aside .content-wrapper .form {
 
 /*REVIEWS*/
 
-.reviews h2 {
-    padding-bottom: 50px; 
-}
-
 .reviews article div {
     width: 42%;
+}
+
+.reviews h2 {
+    padding-bottom: 50px; 
 }
 
 footer h4 {
