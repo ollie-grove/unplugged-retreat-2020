@@ -423,29 +423,31 @@ aside .form {
 .faq {
     background-color: #527158; 
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-flow: row wrap;
+    justify-content: left;
+    align-items: left;
+    
 }
 
 .faq .content-wrapper {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-flow: row wrap;
-    margin: 50px 0 0 0; 
+    margin: 50px 20px;
 }
 
 .faq h2 {
     margin-bottom: 40px;
-    line-height: 1; 
+    line-height: 1;
 }
 
 .faq-content {
     margin-bottom: 50px;  
+    
 }
 
-.faq-content h4 {
+.faq-content h3 {
     line-height: 1.333; 
 }
 
@@ -546,7 +548,7 @@ aside .form {
 
 .content-wrapper {
     max-width: 640px;
-    margin: 100px 0;
+    margin: 50px 0;
 }
 
 h2 { 
@@ -650,7 +652,9 @@ aside .content-wrapper .form {
 
 .reviews article figure, .reviews article div {
     width: 50%;
+    padding-right: 15px;
 }
+
 
 .reviews h3 {
     width: 75%;
