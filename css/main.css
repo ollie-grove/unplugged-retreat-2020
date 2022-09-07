@@ -424,8 +424,8 @@ aside .form {
     background-color: #527158; 
     display: flex;
     flex-flow: row wrap;
-    justify-content: left;
-    align-items: left;
+    justify-content: center;
+    align-items: center;
     
 }
 
